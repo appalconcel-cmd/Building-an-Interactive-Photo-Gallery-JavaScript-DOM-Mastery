@@ -1,10 +1,5 @@
-<link rel="stylesheet" href="./style.css">
-
-<script src="./script.js"></script>
-
-
-
-<img src="images/pic1.jpg" 
-     alt="Description of Pic 1" 
+<img class="preview" 
+     alt="Golden Retriever Pup" 
+     src="images/solar_pup.jpg" 
      onmouseover="upDate(this)" 
      onmouseout="unDo()">
