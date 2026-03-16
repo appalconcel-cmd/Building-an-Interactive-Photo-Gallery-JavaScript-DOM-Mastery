@@ -1,0 +1,22 @@
+function upDate(previewPic) {
+    // 1. Log to console to make sure it works
+    console.log("Hovering over:", previewPic.alt);
+
+    // 2. Select the display div (id="image")
+    let displayDiv = document.getElementById("image");
+
+    // 3. Change the background image 
+    displayDiv.style.backgroundImage = "url('" + previewPic.src + "')";
+
+    // 4. Change the text
+    displayDiv.innerHTML = previewPic.alt;
+}
+
+function unDo() {
+    // 1. Reset the background to nothing
+    let displayDiv = document.getElementById("image");
+    displayDiv.style.backgroundImage = "url('')";
+
+    // 2. Reset the text to original instruction
+    displayDiv.innerHTML = "Hover over an image below to display here.";
+}
