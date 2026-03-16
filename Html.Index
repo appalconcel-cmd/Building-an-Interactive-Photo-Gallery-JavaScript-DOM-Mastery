@@ -1,5 +1,23 @@
 <img class="preview" 
-     alt="Golden Retriever Pup" 
-     src="images/solar_pup.jpg" 
+     alt="DogDay - The Sunny Leader" 
+     src="images/dogday.jpg" 
+     onmouseover="upDate(this)" 
+     onmouseout="unDo()">
+
+<img class="preview" 
+     alt="CraftyCorn - The Creative Artist" 
+     src="images/craftycorn.jpg" 
+     onmouseover="upDate(this)" 
+     onmouseout="unDo()">
+
+<img class="preview" 
+     alt="CatNap - The Calm Dreamer" 
+     src="images/catnap.jpg" 
+     onmouseover="upDate(this)" 
+     onmouseout="unDo()">
+
+<img class="preview" 
+     alt="Bubba Bubbaphant - The Brainy Elephant" 
+     src="images/bubba_bubbaphant.jpg" 
      onmouseover="upDate(this)" 
      onmouseout="unDo()">
